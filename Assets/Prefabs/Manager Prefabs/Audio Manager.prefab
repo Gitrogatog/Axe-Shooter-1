@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2881015582984792270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2881015582984792264}
+  - component: {fileID: 2881015582984792265}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2881015582984792264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881015582984792270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2881015582984792265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881015582984792270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423525cc8f021b0448dae9f392052f96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Level 1
+    clip: {fileID: 8300000, guid: 384d306c93173334b96d8a2e0e65cc2a, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 2
+    clip: {fileID: 8300000, guid: 9dd77b5d58ecc6643bb8cc99e53b89e7, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 3
+    clip: {fileID: 8300000, guid: d7d597d9fe66fed45acc5cc6d543afc0, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss
+    clip: {fileID: 8300000, guid: f21babb0a022ede40b6493706d3ceb7a, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss Intro
+    clip: {fileID: 8300000, guid: b4e59f9be3347724a89f624514f3d7c7, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Warp
+    clip: {fileID: 8300000, guid: 32363e46bcd62124bb9844984484be48, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 8ac9f30f95fdd4f4895fbd5f77d7e117, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Intro
+    clip: {fileID: 8300000, guid: 9216f9e9a75b5dd4287f81ca7358756e, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Map Basic
+    clip: {fileID: 8300000, guid: 470c4b3be9efa0241b5ba578cd0eb864, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: a44a75b5aec89754c9cd48e51919a5e5, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Player Death
+    clip: {fileID: 8300000, guid: a66288df482c3e94896865e6b6c234ae, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit 1
+    clip: {fileID: 8300000, guid: f67f28b56080fd04e8cf388375a3ad89, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit 2
+    clip: {fileID: 8300000, guid: dfc3fa93dfb6cd643a35937230de43d5, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit 3
+    clip: {fileID: 8300000, guid: 0cd717c9464938e43b9d9f7821a30e6b, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot 1
+    clip: {fileID: 8300000, guid: 408877cc9b461bc49a4dcdf24fadae6c, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot 2
+    clip: {fileID: 8300000, guid: 95e1142f43474d941b0d4242faef2569, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot 3
+    clip: {fileID: 8300000, guid: d043610f700623c4399e00381e1d2ab4, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot 4
+    clip: {fileID: 8300000, guid: 1156f2ee7ae7b4d46bc33a9f7d5c5afe, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot 5
+    clip: {fileID: 8300000, guid: 86ee305fc0eaa9f41b112f67d4641667, type: 3}
+    volume: 0.7
+    pitch: 1
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Axe Throw
+    clip: {fileID: 8300000, guid: 4e4f6ce634661fd46a200fba5e02668c, type: 3}
+    volume: 1
+    pitch: 1
+    randPitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Enemy Death 1
+    clip: {fileID: 8300000, guid: 153a5c91fba642641b4e2a5a81d3e2e5, type: 3}
+    volume: 0.7
+    pitch: 1.1
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Enemy Death 2
+    clip: {fileID: 8300000, guid: 153a5c91fba642641b4e2a5a81d3e2e5, type: 3}
+    volume: 0.8
+    pitch: 0.7
+    randPitch: 0.1
+    loop: 0
+    source: {fileID: 0}
